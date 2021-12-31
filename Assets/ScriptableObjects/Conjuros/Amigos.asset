@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f35bdf10865a04baa76baacf6263b9, type: 3}
+  m_Name: Amigos
+  m_EditorClassIdentifier: 
+  nombre: Amigos
+  nivel: 0
+  tiempoLanzamiento: 1 accion
+  alcance: 1
+  duracion: "Concentraci\xF3n, hasta 1 minuto"
+  areaEfecto: 0
+  tiradasSalvacion: 
+  tiradasAtaque: 
+  componentes: 0200000001000000
+  prefab: {fileID: 0}
+  descripcion: "Durante la duraci\xF3n de este conjuro, posees\r ventaja en todas
+    las pruebas de Carisma dirigidas a una criatura de tu elecci\xF3n que no sea\r
+    hostil hacia ti. Cuando el conjuro finaliza, la criatura se percata que se ha
+    usado magia para influenciar su humor y se vuelve hostil\r hacia ti. Una criatura
+    propensa a la violencia podr\xEDa atacarte. Otra criatura podr\xEDa buscar\r
+    alguna otra amnera de retribuci\xF3n (a la discreci\xF3n del DM), dependiendo
+    de la naturaleza de\r tu interacci\xF3n con \xE9l."

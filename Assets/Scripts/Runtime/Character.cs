@@ -17,6 +17,7 @@ public class Character : MonoBehaviour
 
 
     [Header("Stats")]
+    #region STATS
     public int fuerza;
     public int destreza;
     public int constitucion;
@@ -25,8 +26,10 @@ public class Character : MonoBehaviour
     public int carisma;
     [Space(10)]
     public int bonusCompetencia;
+    #endregion
 
     [Header("Habilidades")]
+    #region HABILIDADES
     public int acrobacias;
     public int atletismo;
     public int conocimientoArcano;
@@ -45,22 +48,45 @@ public class Character : MonoBehaviour
     public int sigilo;
     public int supervivencia;
     public int tratoConAnimales;
+    #endregion
 
     void Start()
     {
         switch (raza.nombre)
         {
-            case Raza.TipoDeRaza.ENANO:
+            case Raza.TipoDeRaza.AZOTAMENTES:
                 break;
-            case Raza.TipoDeRaza.ELFO:
+            case Raza.TipoDeRaza.CELESTIAL:
                 break;
-            case Raza.TipoDeRaza.MEDIANO:
+            case Raza.TipoDeRaza.CONTEMPLADOR:
                 break;
-            case Raza.TipoDeRaza.HUMANO:
+            case Raza.TipoDeRaza.C_INFRAOSCURIDAD:
+                break;
+            case Raza.TipoDeRaza.DEMONIO:
+                break;
+            case Raza.TipoDeRaza.DIABLO:
                 break;
             case Raza.TipoDeRaza.DRACONIDO:
                 break;
+            case Raza.TipoDeRaza.DRAGON:
+                break;
+            case Raza.TipoDeRaza.ELEMENTAL:
+                break;
+            case Raza.TipoDeRaza.ELFO:
+                break;
+            case Raza.TipoDeRaza.ENANO:
+                break;
+            case Raza.TipoDeRaza.FEERICO:
+                break;
+            case Raza.TipoDeRaza.GIGANTE:
+                break;
+            case Raza.TipoDeRaza.GOBLINOIDE:
+                break;
             case Raza.TipoDeRaza.GNOMO:
+                break;
+            case Raza.TipoDeRaza.HUMANO:
+                break;
+            case Raza.TipoDeRaza.MEDIANO:
                 break;
             case Raza.TipoDeRaza.SEMIELFO:
                 break;

@@ -2,21 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Race", menuName = "ScriptableObjects/New Race", order = 1)]
+[CreateAssetMenu(fileName = "New Race", menuName = "ScriptableObjects/Race", order = 1)]
 [System.Serializable]
 public class Raza : ScriptableObject
 {
     public enum TipoDeRaza { 
-    ENANO,
-    ELFO,
-    MEDIANO,
-    HUMANO,
-    DRACONIDO,
-    GNOMO,
-    SEMIELFO,
-    SEMIORCO,
-    TIFLIN};
+        AZOTAMENTES,
+        CELESTIAL,
+        CONTEMPLADOR,
+        C_INFRAOSCURIDAD,
+        DEMONIO,
+        DIABLO,
+        DRACONIDO,
+        DRAGON,
+        ELEMENTAL,
+        ELFO,
+        ENANO,
+        FEERICO,
+        GIGANTE,
+        GOBLINOIDE,
+        GNOMO,
+        HUMANO,
+        MEDIANO,
+        OGRO,
+        ORCO,
+        SEMIELFO,
+        SEMIORCO,
+        TIFLIN };
+
     public TipoDeRaza nombre;
+    [Tooltip("Incremento de Puntuación de Característica")]
     public int IPC;
     public int edad;
     public enum Etica { Legal, Neutral, Malvado };
@@ -26,5 +41,5 @@ public class Raza : ScriptableObject
     public float altura;
     public int velociadad;
     public int visionOscuridad;
-    public List<string> idiomasPosibles;
+    public List<Idioma> idiomasPosibles;
 }

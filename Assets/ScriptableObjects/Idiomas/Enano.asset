@@ -9,6 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: Readme
+  m_Script: {fileID: 11500000, guid: 0169a7cccda050e4cadf056713f5f362, type: 3}
+  m_Name: Enano
   m_EditorClassIdentifier: 
+  nombre: Enano
+  textFontStyle: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  escritura: 5
+  unknownLanguage: 
+  hablantesTipicos: 0a000000
+  maleAudios: []
+  femaleAudios: []

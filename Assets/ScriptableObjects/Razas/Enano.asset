@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8187fd61ffae8514eab7fca2ee2879ae, type: 3}
   m_Name: Enano
   m_EditorClassIdentifier: 
-  nombre: 0
+  nombre: 10
   IPC: 0
   edad: 0
   etica: 0
@@ -20,4 +20,6 @@ MonoBehaviour:
   altura: 0
   velociadad: 0
   visionOscuridad: 0
-  idiomasPosibles: []
+  idiomasPosibles:
+  - {fileID: 11400000, guid: 886df7ca19ddaae4284f1542a12cb74e, type: 2}
+  - {fileID: 11400000, guid: 20231075b41ed8846b784418cc683172, type: 2}
