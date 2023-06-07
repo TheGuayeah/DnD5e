@@ -6,21 +6,11 @@ using UnityEngine;
 public class Idioma : ScriptableObject
 {
     public string nombre;
-    public Font textFontStyle;
-    public enum TipoDeEscritura
-    {
-        NINGUNA,
-        CELESTIAL,
-        COMUN,
-        DRACONIDO,
-        ELFICO,
-        ENANO,
-        INFERNAL
-    };
+    public Font textFontStyle;    
     public TipoDeEscritura escritura;
     [Tooltip("Texto que aparece cuando no hablas este idioma")]
     public string unknownLanguage;
-    public List<Raza.TipoDeRaza> hablantesTipicos;
+    public List<TipoDeRaza> hablantesTipicos;
     [Tooltip("Sonidos de los pesonajes al hablar")]
     public List<AudioClip> maleAudios, femaleAudios;
 }

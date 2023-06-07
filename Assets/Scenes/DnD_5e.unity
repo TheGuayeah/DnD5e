@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028355, g: 0.22571374, b: 0.30692255, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -212,6 +212,7 @@ Transform:
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -246,21 +247,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nombre: Kalimaia
-  nivel: 0
-  genero: 0
+  genero: 1
+  raza: {fileID: 11400000, guid: d2e38422bb7b0a544ad9be0fcfad1981, type: 2}
+  clase: {fileID: 11400000, guid: f55ce9c25ff1b5c40937777972b48d2f, type: 2}
+  puntosDeGolpeNv1: 0
+  puntosDeGolpeNvSuperiores: 0
   fuerza: 0
   destreza: 0
   constitucion: 0
   inteligencia: 0
   sabiduria: 0
   carisma: 0
-  rasgos:
-  - rasgo: 
-    nivel: 0
-    efecto: 
   bonusCompetencia: 0
-  raza: {fileID: 11400000, guid: 055c83684c162f447a74341f8c7cb527, type: 2}
-  clase: {fileID: 11400000, guid: f55ce9c25ff1b5c40937777972b48d2f, type: 2}
+  acrobacias: 0
+  atletismo: 0
+  conocimientoArcano: 0
+  engano: 0
+  historia: 0
+  interpretacion: 0
+  investigacion: 0
+  intimidacion: 0
+  juegoDeManos: 0
+  medicina: 0
+  naturaleza: 0
+  percepcion: 0
+  perspicacia: 0
+  persuasion: 0
+  religion: 0
+  sigilo: 0
+  supervivencia: 0
+  tratoConAnimales: 0
 --- !u!4 &1155129714
 Transform:
   m_ObjectHideFlags: 0
@@ -271,6 +287,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -354,6 +371,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0

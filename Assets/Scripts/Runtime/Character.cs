@@ -7,7 +7,6 @@ using System;
 public class Character : MonoBehaviour
 {
     public string nombre;
-    public enum Genero { HOMBRE, MUJER, INDEFINIDO }
     public Genero genero;
     public Raza raza;
     public Clase clase;
@@ -54,45 +53,45 @@ public class Character : MonoBehaviour
     {
         switch (raza.nombre)
         {
-            case Raza.TipoDeRaza.AZOTAMENTES:
+            case TipoDeRaza.AZOTAMENTES:
                 break;
-            case Raza.TipoDeRaza.CELESTIAL:
+            case TipoDeRaza.CELESTIAL:
                 break;
-            case Raza.TipoDeRaza.CONTEMPLADOR:
+            case TipoDeRaza.CONTEMPLADOR:
                 break;
-            case Raza.TipoDeRaza.C_INFRAOSCURIDAD:
+            case TipoDeRaza.C_INFRAOSCURIDAD:
                 break;
-            case Raza.TipoDeRaza.DEMONIO:
+            case TipoDeRaza.DEMONIO:
                 break;
-            case Raza.TipoDeRaza.DIABLO:
+            case TipoDeRaza.DIABLO:
                 break;
-            case Raza.TipoDeRaza.DRACONIDO:
+            case TipoDeRaza.DRACONIDO:
                 break;
-            case Raza.TipoDeRaza.DRAGON:
+            case TipoDeRaza.DRAGON:
                 break;
-            case Raza.TipoDeRaza.ELEMENTAL:
+            case TipoDeRaza.ELEMENTAL:
                 break;
-            case Raza.TipoDeRaza.ELFO:
+            case TipoDeRaza.ELFO:
                 break;
-            case Raza.TipoDeRaza.ENANO:
+            case TipoDeRaza.ENANO:
                 break;
-            case Raza.TipoDeRaza.FEERICO:
+            case TipoDeRaza.FEERICO:
                 break;
-            case Raza.TipoDeRaza.GIGANTE:
+            case TipoDeRaza.GIGANTE:
                 break;
-            case Raza.TipoDeRaza.GOBLINOIDE:
+            case TipoDeRaza.GOBLINOIDE:
                 break;
-            case Raza.TipoDeRaza.GNOMO:
+            case TipoDeRaza.GNOMO:
                 break;
-            case Raza.TipoDeRaza.HUMANO:
+            case TipoDeRaza.HUMANO:
                 break;
-            case Raza.TipoDeRaza.MEDIANO:
+            case TipoDeRaza.MEDIANO:
                 break;
-            case Raza.TipoDeRaza.SEMIELFO:
+            case TipoDeRaza.SEMIELFO:
                 break;
-            case Raza.TipoDeRaza.SEMIORCO:
+            case TipoDeRaza.SEMIORCO:
                 break;
-            case Raza.TipoDeRaza.TIFLIN:
+            case TipoDeRaza.TIFLIN:
                 break;
             default:
                 break;
@@ -100,33 +99,33 @@ public class Character : MonoBehaviour
 
         switch (clase.nombre)
         {
-            case Clase.TipoDeClase.BARBARO:
+            case TipoDeClase.BARBARO:
                 break;
-            case Clase.TipoDeClase.BARDO:
+            case TipoDeClase.BARDO:
                 break;
-            case Clase.TipoDeClase.BRUJO:
+            case TipoDeClase.BRUJO:
                 break;
-            case Clase.TipoDeClase.CLERIGO:
+            case TipoDeClase.CLERIGO:
                 break;
-            case Clase.TipoDeClase.DRUIDA:
+            case TipoDeClase.DRUIDA:
                 break;
-            case Clase.TipoDeClase.EXPLORADOR:
+            case TipoDeClase.EXPLORADOR:
                 break;
-            case Clase.TipoDeClase.GERRERO:
+            case TipoDeClase.GERRERO:
                 break;
-            case Clase.TipoDeClase.HECHICERO:
+            case TipoDeClase.HECHICERO:
                 break;
-            case Clase.TipoDeClase.MAGO:
+            case TipoDeClase.MAGO:
                 break;
-            case Clase.TipoDeClase.MONJE:
+            case TipoDeClase.MONJE:
                 break;
-            case Clase.TipoDeClase.PALADIN:
+            case TipoDeClase.PALADIN:
                 puntosDeGolpeNv1 = 10 + constitucion;
                 puntosDeGolpeNvSuperiores = DiceOrNumber(10, 6) + 
                     (constitucion * (clase.nivel - 1));
 
                 break;
-            case Clase.TipoDeClase.PICARO:
+            case TipoDeClase.PICARO:
                 break;
             default:
                 break;

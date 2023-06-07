@@ -1,3 +1,4 @@
+using Sirenix.OdinInspector;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,19 +6,43 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Spell", menuName = "ScriptableObjects/Spell", order = 1)]
 public class Conjuro : ScriptableObject
 {
+    [HorizontalGroup("Fila1", width: 53)]
+    [VerticalGroup("Fila1/Col1")]
+    [PreviewField, HideLabel, Title("Icon", bold: false, horizontalLine: false)]
+    [Space(-9)]
+    public GameObject prefab;
+
+    [VerticalGroup("Fila1/Col2")]
+    [LabelWidth(75), Space(15)]
     public string nombre;
-    public int nivel;
-    public string tiempoLanzamiento;
+
+    [VerticalGroup("Fila1/Col2")]
     [Tooltip("Casillas")]
+    [LabelWidth(75)]
     public int alcance;
-    public string duracion;
+
+    [VerticalGroup("Fila1/Col3")]
+    [LabelWidth(75), Space(15)]
+    public int nivel;
+
+    [VerticalGroup("Fila1/Col3")]
+    [LabelWidth(85)]
     public AreaDeEfecto areaEfecto;
+
+    [HorizontalGroup("Fila2")]
+    [VerticalGroup("Fila2/Col1")]
+    public string duracion;
+
+    [VerticalGroup("Fila2/Col1")]
+    public string tiempoLanzamiento;
+    [TextArea(4, 6)]
+    public string descripcion;
+
+    [Space(25)]
+
     public List<TiradaSalvacion> tiradasSalvacion;
     public List<TiradaSalvacion> tiradasAtaque;
     public List<Componente> componentes;
-    public GameObject prefab;
-    [TextArea(4, 6)]
-    public string descripcion;
 }
 
 public enum AreaDeEfecto

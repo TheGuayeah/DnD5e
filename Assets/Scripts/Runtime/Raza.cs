@@ -1,3 +1,4 @@
+using Sirenix.OdinInspector;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,40 +7,25 @@ using UnityEngine;
 [System.Serializable]
 public class Raza : ScriptableObject
 {
-    public enum TipoDeRaza { 
-        AZOTAMENTES,
-        CELESTIAL,
-        CONTEMPLADOR,
-        C_INFRAOSCURIDAD,
-        DEMONIO,
-        DIABLO,
-        DRACONIDO,
-        DRAGON,
-        ELEMENTAL,
-        ELFO,
-        ENANO,
-        FEERICO,
-        GIGANTE,
-        GOBLINOIDE,
-        GNOMO,
-        HUMANO,
-        MEDIANO,
-        OGRO,
-        ORCO,
-        SEMIELFO,
-        SEMIORCO,
-        TIFLIN };
-
     public TipoDeRaza nombre;
-    [Tooltip("Incremento de Puntuación de Característica")]
-    public int IPC;
-    public int edad;
-    public enum Etica { Legal, Neutral, Malvado };
+    [TableList]
+    public List<IncrementoPuntuacion> incrementoPuntuacion;
+    public int edadMaxima;    
     public Etica etica;
-    public enum Moral { Bueno, Neutral, Caotico };
     public Moral moral;
-    public float altura;
-    public int velociadad;
-    public int visionOscuridad;
+    [Range(1, 10)]
+    public int alturaMinima;
+    [Range(1, 10)]
+    public int alturaMaxima;
+    public float pesoMedio;
+    public int velociadadBase;
+    public bool visionOscuridad;
     public List<Idioma> idiomasPosibles;
+}
+
+[System.Serializable]
+public class IncrementoPuntuacion
+{
+    public Stats stat;
+    public int valor;
 }
