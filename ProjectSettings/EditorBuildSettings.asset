@@ -5,4 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes: []
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: f84a8093e9d303a48bcce7f1112da121, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 124019f39bdf53c4e9d2fbe31cb4f454, type: 2}

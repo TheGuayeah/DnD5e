@@ -12,10 +12,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0169a7cccda050e4cadf056713f5f362, type: 3}
   m_Name: Gigante
   m_EditorClassIdentifier: 
-  nombre: Gigante
+  nombre:
+    m_TableReference:
+      m_TableCollectionName: GUID:85fdec4f31c8c34429cc09344a30cafc
+    m_TableEntryReference:
+      m_KeyId: 1306755465216
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   textFontStyle: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   escritura: 5
-  unknownLanguage: 
+  unknownLanguage:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   hablantesTipicos: 0c00000011000000
   maleAudios: []
   femaleAudios: []
+  references:
+    version: 2
+    RefIds: []

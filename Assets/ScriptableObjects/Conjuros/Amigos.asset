@@ -12,20 +12,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f35bdf10865a04baa76baacf6263b9, type: 3}
   m_Name: Amigos
   m_EditorClassIdentifier: 
-  nombre: Amigos
-  nivel: 0
-  tiempoLanzamiento: 1 accion
+  prefab: {fileID: 0}
+  nombre:
+    m_TableReference:
+      m_TableCollectionName: GUID:d650b4bec91749a439cee8c1f2414d7f
+    m_TableEntryReference:
+      m_KeyId: 213803728896
+      m_Key: 
+    m_FallbackState: 2
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   alcance: 1
-  duracion: "Concentraci\xF3n, hasta 1 minuto"
-  areaEfecto: 0
+  nivel: 0
+  areaEfecto:
+    m_TableReference:
+      m_TableCollectionName: GUID:d650b4bec91749a439cee8c1f2414d7f
+    m_TableEntryReference:
+      m_KeyId: 38543949955072
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  duracion:
+    m_TableReference:
+      m_TableCollectionName: GUID:d650b4bec91749a439cee8c1f2414d7f
+    m_TableEntryReference:
+      m_KeyId: 23965128065024
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  tiempoLanzamiento:
+    m_TableReference:
+      m_TableCollectionName: GUID:d650b4bec91749a439cee8c1f2414d7f
+    m_TableEntryReference:
+      m_KeyId: 24189204561920
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  descripcion:
+    m_TableReference:
+      m_TableCollectionName: GUID:d650b4bec91749a439cee8c1f2414d7f
+    m_TableEntryReference:
+      m_KeyId: 24730609516544
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   tiradasSalvacion: 
   tiradasAtaque: 
   componentes: 0200000001000000
-  prefab: {fileID: 0}
-  descripcion: "Durante la duraci\xF3n de este conjuro, posees\r ventaja en todas
-    las pruebas de Carisma dirigidas a una criatura de tu elecci\xF3n que no sea\r
-    hostil hacia ti. Cuando el conjuro finaliza, la criatura se percata que se ha
-    usado magia para influenciar su humor y se vuelve hostil\r hacia ti. Una criatura
-    propensa a la violencia podr\xEDa atacarte. Otra criatura podr\xEDa buscar\r
-    alguna otra amnera de retribuci\xF3n (a la discreci\xF3n del DM), dependiendo
-    de la naturaleza de\r tu interacci\xF3n con \xE9l."
+  references:
+    version: 2
+    RefIds: []

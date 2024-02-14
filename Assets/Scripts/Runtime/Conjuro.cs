@@ -2,6 +2,7 @@ using Sirenix.OdinInspector;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization;
 
 [CreateAssetMenu(fileName = "New Spell", menuName = "ScriptableObjects/Spell", order = 1)]
 public class Conjuro : ScriptableObject
@@ -14,7 +15,7 @@ public class Conjuro : ScriptableObject
 
     [VerticalGroup("Fila1/Col2")]
     [LabelWidth(75), Space(15)]
-    public string nombre;
+    public LocalizedString nombre;
 
     [VerticalGroup("Fila1/Col2")]
     [Tooltip("Casillas")]
@@ -27,31 +28,22 @@ public class Conjuro : ScriptableObject
 
     [VerticalGroup("Fila1/Col3")]
     [LabelWidth(85)]
-    public AreaDeEfecto areaEfecto;
+    public LocalizedString areaEfecto;
 
     [HorizontalGroup("Fila2")]
     [VerticalGroup("Fila2/Col1")]
-    public string duracion;
+    public LocalizedString duracion;
 
     [VerticalGroup("Fila2/Col1")]
-    public string tiempoLanzamiento;
-    [TextArea(4, 6)]
-    public string descripcion;
+    public LocalizedString tiempoLanzamiento;
+    //[TextArea(4, 6)]
+    public LocalizedString descripcion;
 
     [Space(25)]
 
     public List<TiradaSalvacion> tiradasSalvacion;
     public List<TiradaSalvacion> tiradasAtaque;
     public List<Componente> componentes;
-}
-
-public enum AreaDeEfecto
-{
-    LINEA,
-    CONO,
-    CUBO,
-    ESFERA,
-    CILINDRO
 }
 
 public enum Componente

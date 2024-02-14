@@ -97,7 +97,7 @@ public class Character : MonoBehaviour
                 break;
         }
 
-        switch (clase.nombre)
+        switch (clase.tipoDeClase)
         {
             case TipoDeClase.BARBARO:
                 break;

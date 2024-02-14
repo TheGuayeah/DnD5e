@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Classes_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: e922afef7aca93e4586bba948662153c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 459732549632
+    m_Localized: Wizard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 434780635136
+    m_Localized: Warlock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 379365490688
+    m_Localized: Sorcerer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 356288430080
+    m_Localized: Rogue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 326575980544
+    m_Localized: Ranger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289439612928
+    m_Localized: Paladin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63039471616
+    m_Localized: Monk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59751137280
+    m_Localized: Fighter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56513134592
+    m_Localized: Druid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53224800256
+    m_Localized: Cleric
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47570878464
+    m_Localized: Bard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41459777536
+    m_Localized: Barbarian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3160600084480
+    m_Localized: Artificer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3268368531456
+    m_Localized: Blood hunter
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

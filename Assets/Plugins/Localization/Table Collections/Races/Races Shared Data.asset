@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Races Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Races
+  m_TableCollectionNameGuidString: 22624d3e7cc3b2341a9398e1f73b0f63
+  m_Entries:
+  - m_Id: 117158576128
+    m_Key: RACE_NAME_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121042501632
+    m_Key: RACE_NAME_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 124532162560
+    m_Key: RACE_NAME_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129334640640
+    m_Key: RACE_NAME_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132157407232
+    m_Key: RACE_NAME_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159768510464
+    m_Key: RACE_NAME_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163585327104
+    m_Key: RACE_NAME_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169570598912
+    m_Key: RACE_NAME_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173257392128
+    m_Key: RACE_NAME_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 176247930880
+    m_Key: RACE_NAME_9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178319917056
+    m_Key: RACE_NAME_10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179511099392
+    m_Key: RACE_NAME_11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180622589952
+    m_Key: RACE_NAME_12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181578891264
+    m_Key: RACE_NAME_13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182673604608
+    m_Key: RACE_NAME_14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184254857216
+    m_Key: RACE_NAME_15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185114689536
+    m_Key: RACE_NAME_16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185932578816
+    m_Key: RACE_NAME_17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187501248512
+    m_Key: RACE_NAME_18
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188340109312
+    m_Key: RACE_NAME_19
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190437261312
+    m_Key: RACE_NAME_20
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193985642496
+    m_Key: RACE_NAME_21
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5525830206228267075
+  references:
+    version: 2
+    RefIds:
+    - rid: 5525830206228267075
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1707911058627

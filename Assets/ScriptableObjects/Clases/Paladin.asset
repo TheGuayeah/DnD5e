@@ -12,7 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb5b5ad3808047d4cb3cdba37386ece0, type: 3}
   m_Name: Paladin
   m_EditorClassIdentifier: 
-  nombre: 10
+  nombre:
+    m_TableReference:
+      m_TableCollectionName: GUID:e922afef7aca93e4586bba948662153c
+    m_TableEntryReference:
+      m_KeyId: 289439612928
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  tipoDeClase: 10
   nivel: 1
   tiradasSalvacion: 0400000005000000
   CD_SalvacionConjuros: 0
@@ -24,61 +33,61 @@ MonoBehaviour:
     nivel: 1
     efecto: 
   - nombre: 
-    nivel: 0
+    nivel: 2
     efecto: 
   - nombre: 
-    nivel: 0
+    nivel: 3
     efecto: 
   - nombre: 
-    nivel: 0
+    nivel: 4
     efecto: 
   - nombre: 
-    nivel: 0
+    nivel: 5
     efecto: 
   - nombre: 
-    nivel: 0
+    nivel: 6
     efecto: 
   - nombre: 
-    nivel: 0
+    nivel: 7
     efecto: 
   - nombre: 
-    nivel: 0
+    nivel: 8
     efecto: 
   - nombre: 
-    nivel: 0
+    nivel: 9
     efecto: 
   - nombre: 
-    nivel: 0
+    nivel: 10
     efecto: 
   - nombre: 
-    nivel: 0
+    nivel: 11
     efecto: 
   - nombre: 
-    nivel: 0
+    nivel: 12
     efecto: 
   - nombre: 
-    nivel: 0
+    nivel: 13
     efecto: 
   - nombre: 
-    nivel: 0
+    nivel: 14
     efecto: 
   - nombre: 
-    nivel: 0
+    nivel: 15
     efecto: 
   - nombre: 
-    nivel: 0
+    nivel: 16
     efecto: 
   - nombre: 
-    nivel: 0
+    nivel: 17
     efecto: 
   - nombre: 
-    nivel: 0
+    nivel: 18
     efecto: 
   - nombre: 
-    nivel: 0
+    nivel: 19
     efecto: 
   - nombre: 
-    nivel: 0
+    nivel: 20
     efecto: 
   conjurosPorNivel:
   - conjurosPorDia: 
@@ -103,3 +112,6 @@ MonoBehaviour:
   - conjurosPorDia: 0400000003000000030000000300000002000000
   posiblesConjuros:
   - conjuros: []
+  references:
+    version: 2
+    RefIds: []

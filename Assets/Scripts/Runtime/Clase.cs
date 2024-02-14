@@ -2,11 +2,13 @@ using Sirenix.OdinInspector;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization;
 
 [CreateAssetMenu(fileName = "New Class", menuName = "ScriptableObjects/Class", order = 1)]
 public class Clase : ScriptableObject
 {    
-    public TipoDeClase nombre;
+    public LocalizedString nombre;
+    public TipoDeClase tipoDeClase;
     public int nivel;
     
     public List<TiradaSalvacion> tiradasSalvacion;

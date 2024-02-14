@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9acc6b0b678b2b5419b216fbf902dcd0
+  m_SerializeEntries:
+  - m_GUID: d650b4bec91749a439cee8c1f2414d7f
+    m_Address: Assets/Plugins/Localization/Table Collections/Spells Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85fdec4f31c8c34429cc09344a30cafc
+    m_Address: Assets/Plugins/Localization/Table Collections/Languages/Languages
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e922afef7aca93e4586bba948662153c
+    m_Address: Assets/Plugins/Localization/Table Collections/Classes/Classes Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22624d3e7cc3b2341a9398e1f73b0f63
+    m_Address: Assets/Plugins/Localization/Table Collections/Races/Races Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: dc215000e992e534e8f9822fd696dcb8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fd0d619e0f1c4bc4ca6653e0f5ab3660, type: 2}
+    - {fileID: 11400000, guid: 79684d510e4776848b0d94ec596d2f3e, type: 2}
