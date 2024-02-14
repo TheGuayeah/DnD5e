@@ -55,3 +55,11 @@ The following packages were updated:
   com.unity.ide.visualstudio from version 2.0.12 to 2.0.16
   com.unity.test-framework from version 1.1.30 to 1.1.31
   com.unity.timeline from version 1.4.8 to 1.6.4
+
+=== Wed Feb 14 14:18:20 2024
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.ai.navigation@1.1.3
