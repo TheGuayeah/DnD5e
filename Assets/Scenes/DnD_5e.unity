@@ -104,7 +104,7 @@ NavMeshSettings:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_BuildSettings:
-    serializedVersion: 2
+    serializedVersion: 3
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
@@ -117,7 +117,7 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualTileSize: 0
     tileSize: 256
-    accuratePlacement: 0
+    buildHeightMesh: 0
     maxJobWorkers: 0
     preserveTilesOutsideBounds: 0
     debug:
@@ -246,19 +246,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30e02c0cf8ccee9468f4ee2646320762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombre: Kalimaia
-  genero: 1
-  raza: {fileID: 11400000, guid: d2e38422bb7b0a544ad9be0fcfad1981, type: 2}
+  name: Kalimaia
+  gender: 0
+  race: {fileID: 0}
   clase: {fileID: 11400000, guid: f55ce9c25ff1b5c40937777972b48d2f, type: 2}
   puntosDeGolpeNv1: 0
   puntosDeGolpeNvSuperiores: 0
-  fuerza: 0
-  destreza: 0
-  constitucion: 0
-  inteligencia: 0
-  sabiduria: 0
-  carisma: 0
-  bonusCompetencia: 0
+  strength: 0
+  dexterity: 0
+  constitutiom: 0
+  inteligence: 0
+  wisdom: 0
+  charisma: 0
+  bonusCompetence: 0
   acrobacias: 0
   atletismo: 0
   conocimientoArcano: 0
@@ -332,9 +332,17 @@ Camera:
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0

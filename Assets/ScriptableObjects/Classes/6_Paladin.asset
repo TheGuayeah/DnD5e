@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb5b5ad3808047d4cb3cdba37386ece0, type: 3}
+  m_Name: 6_Paladin
+  m_EditorClassIdentifier: 
+  name:
+    m_TableReference:
+      m_TableCollectionName: GUID:e922afef7aca93e4586bba948662153c
+    m_TableEntryReference:
+      m_KeyId: 289439612928
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  description:
+    m_TableReference:
+      m_TableCollectionName: GUID:e922afef7aca93e4586bba948662153c
+    m_TableEntryReference:
+      m_KeyId: 304835953033216
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  classType: 10
+  level: 0
+  savingRolls: 
+  spellSavingDC: 0
+  hitPointsLevel1: 0
+  hitPointsHigherLevels: 0
+  hitDiceCount: 1
+  diceType: 3
+  bonusCompetence: 
+  traits: []
+  spellsByLevel: []
+  possibleSpells: []
+  references:
+    version: 2
+    RefIds: []

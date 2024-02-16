@@ -9,8 +9,8 @@ showPackageIndexes = false
 showStatusBar = false
 scopes = {
 	"picker_window_position_offset.45F317DD" = "509;276;320;550"
-	"picker_search_text.45F317DD" = "st:CLASS_ "
-	"last_search.45F317DD" = "st:CLASS_ "
+	"picker_search_text.45F317DD" = "st:SPELL "
+	"last_search.45F317DD" = "st:SPELL "
 	"OpenInspectorPreview.45F317DD" = "0"
 	"currentGroup.45F317DD" = "all"
 }
@@ -74,6 +74,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"st:C"
 	"st:LA"
 	"st:SPELL_0_NAME"
 ]

@@ -19,91 +19,91 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 117158576128
-    m_Localized: AZOTAMENTES
+    m_Localized: Azotamentes
     m_Metadata:
       m_Items: []
   - m_Id: 121042501632
-    m_Localized: CELESTIAL
+    m_Localized: Celestial
     m_Metadata:
       m_Items: []
   - m_Id: 124532162560
-    m_Localized: CONTEMPLADOR
+    m_Localized: Contemplador
     m_Metadata:
       m_Items: []
   - m_Id: 129334640640
-    m_Localized: C_INFRAOSCURIDAD
+    m_Localized: C_Infraoscuridad
     m_Metadata:
       m_Items: []
   - m_Id: 132157407232
-    m_Localized: DEMONIO
+    m_Localized: Demonio
     m_Metadata:
       m_Items: []
   - m_Id: 159768510464
-    m_Localized: DIABLO
+    m_Localized: Diablo
     m_Metadata:
       m_Items: []
   - m_Id: 163585327104
-    m_Localized: DRACONIDO
+    m_Localized: "Drac\xF3nido"
     m_Metadata:
       m_Items: []
   - m_Id: 169570598912
-    m_Localized: DRAGON
+    m_Localized: "Drag\xF3n"
     m_Metadata:
       m_Items: []
   - m_Id: 173257392128
-    m_Localized: ELEMENTAL
+    m_Localized: Elemental
     m_Metadata:
       m_Items: []
   - m_Id: 176247930880
-    m_Localized: ELFO
+    m_Localized: Elfo
     m_Metadata:
       m_Items: []
   - m_Id: 178319917056
-    m_Localized: ENANO
+    m_Localized: Enano
     m_Metadata:
       m_Items: []
   - m_Id: 179511099392
-    m_Localized: FEERICO
+    m_Localized: "Fe\xE9rico"
     m_Metadata:
       m_Items: []
   - m_Id: 180622589952
-    m_Localized: GIGANTE
+    m_Localized: Gigante
     m_Metadata:
       m_Items: []
   - m_Id: 181578891264
-    m_Localized: GOBLINOIDE
+    m_Localized: Goblinoide
     m_Metadata:
       m_Items: []
   - m_Id: 182673604608
-    m_Localized: GNOMO
+    m_Localized: Gnomo
     m_Metadata:
       m_Items: []
   - m_Id: 184254857216
-    m_Localized: HUMANO
+    m_Localized: Humano
     m_Metadata:
       m_Items: []
   - m_Id: 185114689536
-    m_Localized: MEDIANO
+    m_Localized: Mediano
     m_Metadata:
       m_Items: []
   - m_Id: 185932578816
-    m_Localized: OGRO
+    m_Localized: Ogro
     m_Metadata:
       m_Items: []
   - m_Id: 187501248512
-    m_Localized: ORCO
+    m_Localized: Orco
     m_Metadata:
       m_Items: []
   - m_Id: 188340109312
-    m_Localized: SEMIELFO
+    m_Localized: Semielfo
     m_Metadata:
       m_Items: []
   - m_Id: 190437261312
-    m_Localized: SEMIORCO
+    m_Localized: Semiorco
     m_Metadata:
       m_Items: []
   - m_Id: 193985642496
-    m_Localized: TIFLIN
+    m_Localized: Tiflin
     m_Metadata:
       m_Items: []
   references:

@@ -17,7 +17,83 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 22624d3e7cc3b2341a9398e1f73b0f63, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 121042501632
+    m_Localized: Celestial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132157407232
+    m_Localized: Demon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159768510464
+    m_Localized: Devil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163585327104
+    m_Localized: Dragon born
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169570598912
+    m_Localized: Dragon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173257392128
+    m_Localized: Elemental
+    m_Metadata:
+      m_Items: []
+  - m_Id: 176247930880
+    m_Localized: Elf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178319917056
+    m_Localized: Dwarf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180622589952
+    m_Localized: Giant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181578891264
+    m_Localized: Goblinoid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182673604608
+    m_Localized: Gnome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184254857216
+    m_Localized: Human
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185114689536
+    m_Localized: Halfling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185932578816
+    m_Localized: Oger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187501248512
+    m_Localized: Orc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188340109312
+    m_Localized: Semielf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190437261312
+    m_Localized: Semiorc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193985642496
+    m_Localized: Tiefling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117158576128
+    m_Localized: Mind flayer
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -16,19 +16,19 @@ MonoBehaviour:
   m_TableCollectionNameGuidString: d650b4bec91749a439cee8c1f2414d7f
   m_Entries:
   - m_Id: 213803728896
-    m_Key: SPELL_0_NAME
+    m_Key: SPELL_NAME_0
     m_Metadata:
       m_Items: []
   - m_Id: 23965128065024
-    m_Key: SPELL_0_DURATION
+    m_Key: SPELL_DURATION_0
     m_Metadata:
       m_Items: []
   - m_Id: 24189204561920
-    m_Key: SPELL_0_CAST_TIME
+    m_Key: SPELL_CAST_TIME_0
     m_Metadata:
       m_Items: []
   - m_Id: 24730609516544
-    m_Key: SPELL_0_DESCRIPTION
+    m_Key: SPELL_DESC_0
     m_Metadata:
       m_Items: []
   - m_Id: 38543949955072

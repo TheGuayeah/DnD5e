@@ -6,126 +6,132 @@ using System;
 
 public class Character : MonoBehaviour
 {
-    public string nombre;
-    public Genero genero;
-    public Raza raza;
-    public Clase clase;
+    public string name;
+    public Gender gender;
+    public Race race;
+    public CharacterClass characterClass;
 
-    public int puntosDeGolpeNv1;
-    public int puntosDeGolpeNvSuperiores;
+    public int armorClass;
+    public int difficultyClass;
 
 
     [Header("Stats")]
     #region STATS
-    public int fuerza;
-    public int destreza;
-    public int constitucion;
-    public int inteligencia;
-    public int sabiduria;
-    public int carisma;
+    public int strength;
+    public int dexterity;
+    public int constitution;
+    public int inteligence;
+    public int wisdom;
+    public int charisma;
     [Space(10)]
-    public int bonusCompetencia;
+    public int bonusCompetence;
     #endregion
 
-    [Header("Habilidades")]
+    [Header("Skill Checks")]
     #region HABILIDADES
-    public int acrobacias;
-    public int atletismo;
-    public int conocimientoArcano;
-    public int engano;
-    public int historia;
-    public int interpretacion;
-    public int investigacion;
-    public int intimidacion;
-    public int juegoDeManos;
-    public int medicina;
-    public int naturaleza;
-    public int percepcion;
-    public int perspicacia;
+    public int acrobatics;
+    public int athletics;
+    [Tooltip("Conocimiento arcano")]
+    public int arcana;
+    [Tooltip("Engaño")]
+    public int deception;
+    public int history;
+    public int interpretation;
+    public int investigation;
+    public int intimidation;
+    [Tooltip("Juego de manos")]
+    public int sleightOfHand;
+    public int medicine;
+    public int nature;
+    public int perception;
+    [Tooltip("Perspicacia")]
+    public int insight;
     public int persuasion;
     public int religion;
-    public int sigilo;
-    public int supervivencia;
-    public int tratoConAnimales;
+    [Tooltip("Sigilo")]
+    public int stealth;
+    public int survival;
+    [Tooltip("Trato con animales")]
+    public int animalHandling;
     #endregion
 
     void Start()
     {
-        switch (raza.nombre)
+        switch (race.racialOrigin)
         {
-            case TipoDeRaza.AZOTAMENTES:
+            case RacialOrigin.MIND_FLAYER:
                 break;
-            case TipoDeRaza.CELESTIAL:
+            case RacialOrigin.CELESTIAL:
                 break;
-            case TipoDeRaza.CONTEMPLADOR:
+            case RacialOrigin.CONTEMPLADOR:
                 break;
-            case TipoDeRaza.C_INFRAOSCURIDAD:
+            case RacialOrigin.C_INFRAOSCURIDAD:
                 break;
-            case TipoDeRaza.DEMONIO:
+            case RacialOrigin.DEMON:
                 break;
-            case TipoDeRaza.DIABLO:
+            case RacialOrigin.DEVIL:
                 break;
-            case TipoDeRaza.DRACONIDO:
+            case RacialOrigin.DRAGON_BORN:
                 break;
-            case TipoDeRaza.DRAGON:
+            case RacialOrigin.DRAGON:
                 break;
-            case TipoDeRaza.ELEMENTAL:
+            case RacialOrigin.ELEMENTAL:
                 break;
-            case TipoDeRaza.ELFO:
+            case RacialOrigin.ELF:
                 break;
-            case TipoDeRaza.ENANO:
+            case RacialOrigin.DWARF:
                 break;
-            case TipoDeRaza.FEERICO:
+            case RacialOrigin.FEERICO:
                 break;
-            case TipoDeRaza.GIGANTE:
+            case RacialOrigin.GIANT:
                 break;
-            case TipoDeRaza.GOBLINOIDE:
+            case RacialOrigin.GOBLINOID:
                 break;
-            case TipoDeRaza.GNOMO:
+            case RacialOrigin.GNOME:
                 break;
-            case TipoDeRaza.HUMANO:
+            case RacialOrigin.HUMAN:
                 break;
-            case TipoDeRaza.MEDIANO:
+            case RacialOrigin.HALFLING:
                 break;
-            case TipoDeRaza.SEMIELFO:
+            case RacialOrigin.SEMIELF:
                 break;
-            case TipoDeRaza.SEMIORCO:
+            case RacialOrigin.SEMIORC:
                 break;
-            case TipoDeRaza.TIFLIN:
+            case RacialOrigin.TIEFLING:
                 break;
             default:
                 break;
         }
 
-        switch (clase.tipoDeClase)
+        switch (characterClass.classType)
         {
-            case TipoDeClase.BARBARO:
+            case ClassType.BARBARIAN:
                 break;
-            case TipoDeClase.BARDO:
+            case ClassType.BARD:
                 break;
-            case TipoDeClase.BRUJO:
+            case ClassType.WARLOCK:
                 break;
-            case TipoDeClase.CLERIGO:
+            case ClassType.CLERIC:
                 break;
-            case TipoDeClase.DRUIDA:
+            case ClassType.DRUID:
                 break;
-            case TipoDeClase.EXPLORADOR:
+            case ClassType.RANGER:
                 break;
-            case TipoDeClase.GERRERO:
+            case ClassType.FIGHTER:
                 break;
-            case TipoDeClase.HECHICERO:
+            case ClassType.SORCERER:
                 break;
-            case TipoDeClase.MAGO:
+            case ClassType.WIZARD:
                 break;
-            case TipoDeClase.MONJE:
+            case ClassType.MONK:
                 break;
-            case TipoDeClase.PALADIN:
-                puntosDeGolpeNv1 = 10 + constitucion;
-                puntosDeGolpeNvSuperiores = DiceOrNumber(10, 6) + 
-                    (constitucion * (clase.nivel - 1));
+            case ClassType.PALADIN:
+                characterClass.hitPointsLevel1 = 10 + constitution;
+                characterClass.hitPointsHigherLevels = DiceOrNumber(10, 6) + 
+                    (constitution * (characterClass.level - 1));
 
                 break;
-            case TipoDeClase.PICARO:
+            case ClassType.ROGUE:
                 break;
             default:
                 break;

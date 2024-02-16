@@ -1,72 +1,72 @@
-public enum Genero { HOMBRE, MUJER, INDEFINIDO };
+public enum Gender { MALE, FEMALE, UNKNOWN };
 public enum Stats
 {
-    Carisma,
-    Constitucion,
-    Destreza,
-    Fuerza,
-    Inteligencia,
-    Sabiduria
+    CHARISMA,
+    CONSTITUTION,
+    DEXTERITY,
+    INTELIGENCE,
+    STRENGHT,
+    WISDOM
 };
-public enum Etica { Legal, Neutral, Caotico };
-public enum Moral { Bueno, Neutral, Malvado };
-public enum TipoDeRaza
+public enum Ethics { LEGAL, NEUTRAL, CHAOTHIC };
+public enum Moral { GOOD, NEUTRAL, EVIL };
+public enum RacialOrigin
 {
-    AZOTAMENTES,
     CELESTIAL,
     CONTEMPLADOR,
     C_INFRAOSCURIDAD,
-    DEMONIO,
-    DIABLO,
-    DRACONIDO,
+    DEMON,
+    DEVIL,
     DRAGON,
+    DRAGON_BORN,
+    DWARF,
     ELEMENTAL,
-    ELFO,
-    ENANO,
+    ELF,
     FEERICO,
-    GIGANTE,
-    GOBLINOIDE,
-    GNOMO,
-    HUMANO,
-    MEDIANO,
+    GNOME,
+    GIANT,
+    GOBLINOID,
+    HALFLING,
+    HUMAN,
+    MIND_FLAYER,
     OGRO,
     ORCO,
-    SEMIELFO,
-    SEMIORCO,
-    TIFLIN
+    SEMIELF,
+    SEMIORC,
+    TIEFLING
 };
-public enum TipoDeClase
+public enum ClassType
 {
-    BARBARO,
-    BARDO,
-    BRUJO,
-    CLERIGO,
-    DRUIDA,
-    EXPLORADOR,
-    GERRERO,
-    HECHICERO,
-    MAGO,
-    MONJE,
+    BARBARIAN,
+    BARD,
+    WARLOCK,
+    CLERIC,
+    DRUID,
+    RANGER,
+    FIGHTER,
+    SORCERER,
+    WIZARD,
+    MONK,
     PALADIN,
-    PICARO
+    ROGUE
 };
-public enum TipoDeEscritura
+public enum WritingStyle
 {
-    NINGUNA,
+    NONE,
     CELESTIAL,
-    COMUN,
-    DRACONIDO,
-    ELFICO,
-    ENANO,
+    COMMON,
+    DRACONIC,
+    DWARVISH,
+    ELVISH,
     INFERNAL
 };
-public enum TipoDeDado { D4, D6, D8, D10, D12, D20, D100 };
-public enum TiradaSalvacion
+public enum DiceType { D4, D6, D8, D10, D12, D20, D100 };
+public enum DiceRoll
 {
-    FUERZA,
-    DESTREZA,
-    CONSTITUCION,
-    INTELIGENCIA,
-    SABIDURIA,
-    CARISMA
+    CHARISMA,
+    CONSTITUTION,
+    DEXTERITY,
+    INTELIGENCE,
+    STRENGHT,
+    WISDOM
 };

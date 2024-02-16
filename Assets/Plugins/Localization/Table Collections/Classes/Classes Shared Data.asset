@@ -16,59 +16,115 @@ MonoBehaviour:
   m_TableCollectionNameGuidString: e922afef7aca93e4586bba948662153c
   m_Entries:
   - m_Id: 41459777536
-    m_Key: CLASS_0_NAME
+    m_Key: CLASS_NAME_0
     m_Metadata:
       m_Items: []
   - m_Id: 47570878464
-    m_Key: CLASS_1_NAME
+    m_Key: CLASS_NAME_1
     m_Metadata:
       m_Items: []
   - m_Id: 53224800256
-    m_Key: CLASS_2_NAME
+    m_Key: CLASS_NAME_2
     m_Metadata:
       m_Items: []
   - m_Id: 56513134592
-    m_Key: CLASS_3_NAME
+    m_Key: CLASS_NAME_3
     m_Metadata:
       m_Items: []
   - m_Id: 59751137280
-    m_Key: CLASS_4_NAME
+    m_Key: CLASS_NAME_4
     m_Metadata:
       m_Items: []
   - m_Id: 63039471616
-    m_Key: CLASS_5_NAME
+    m_Key: CLASS_NAME_5
     m_Metadata:
       m_Items: []
   - m_Id: 289439612928
-    m_Key: CLASS_6_NAME
+    m_Key: CLASS_NAME_6
     m_Metadata:
       m_Items: []
   - m_Id: 326575980544
-    m_Key: CLASS_7_NAME
+    m_Key: CLASS_NAME_7
     m_Metadata:
       m_Items: []
   - m_Id: 356288430080
-    m_Key: CLASS_8_NAME
+    m_Key: CLASS_NAME_8
     m_Metadata:
       m_Items: []
   - m_Id: 379365490688
-    m_Key: CLASS_9_NAME
+    m_Key: CLASS_NAME_9
     m_Metadata:
       m_Items: []
   - m_Id: 434780635136
-    m_Key: CLASS_10_NAME
+    m_Key: CLASS_NAME_10
     m_Metadata:
       m_Items: []
   - m_Id: 459732549632
-    m_Key: CLASS_11_NAME
+    m_Key: CLASS_NAME_11
     m_Metadata:
       m_Items: []
   - m_Id: 3160600084480
-    m_Key: CLASS_12_NAME
+    m_Key: CLASS_NAME_12
     m_Metadata:
       m_Items: []
   - m_Id: 3268368531456
-    m_Key: CLASS_13_NAME
+    m_Key: CLASS_NAME_13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304641106640896
+    m_Key: CLASS_DESC_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304716444729344
+    m_Key: CLASS_DESC_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304736472530944
+    m_Key: CLASS_DESC_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304757712486400
+    m_Key: CLASS_DESC_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304783792668672
+    m_Key: CLASS_DESC_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304821205860352
+    m_Key: CLASS_DESC_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304835953033216
+    m_Key: CLASS_DESC_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304850628902912
+    m_Key: CLASS_DESC_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304868974788608
+    m_Key: CLASS_DESC_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304881087938560
+    m_Key: CLASS_DESC_9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304897475084288
+    m_Key: CLASS_DESC_10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304909760200704
+    m_Key: CLASS_DESC_11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304927846039552
+    m_Key: CLASS_DESC_12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304941959872512
+    m_Key: CLASS_DESC_13
     m_Metadata:
       m_Items: []
   m_Metadata:
